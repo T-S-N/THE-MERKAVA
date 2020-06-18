@@ -1,6 +1,8 @@
 import os,sys
 import time
 import compileall
+import V7xStyle
+from V7xStyle import Animation
 
 def encode1 () :
     import os
@@ -85,7 +87,29 @@ gpg $g
 
 
 
+def slow () :
+    w = Animation
+    w.SlowText ("""
 
+1- It encrypts the entered texts using the reverse
+ code -1 and saves the encoded sentences in a file 
+called encode.txt \n
+
+2- This option only encrypts the Python language
+ codes.  You write the name of the file or its
+ extension and the program encrypts the code inside
+ it .... It has the feature of encrypting files inside
+ a folder .. where you enter the folder name only ...\n
+
+
+3- It is the best option that encrypts any file of
+ any kind with a password you choose .... and to decode
+ the code in a second way a password will be
+ encountered .. Therefore it is preferred to set it 
+strong and difficult to guess ...\n
+
+
+""")
 
 
 
@@ -96,28 +120,32 @@ gpg $g
 
 
   
-os.system ("c")
+os.system ("clear")
 styel ()
 print ("")
-print ("1- encode text ")
-print ("2- encode file/dir ")
-print ("3- encode file with passeword && decode it ")
-print ("#- exit ")
+print ("[*]  1- encode text ")
+print ("[*]  2- encode file/dir ")
+print ("[*]  3- encode file with passeword && decode it ")
+print ('[*]  4- help ')
+print ("[*]  5- exit ")
 print ("")
 
 kl = input (">>> ")
 if kl == "1" :
-    os.system ("c")
+    os.system ("clear")
     styel ()
     encode1 ()
 elif kl == "2" :
-    os.system ("c")
+    os.system ("clear")
     styel ()
     encode2 ()
 elif kl == "3" :
-    os.system ("c")
+    os.system ("clear")
     styel ()
     encode3 ()
+elif kl == "4" :
+    os.system ("clear")
+    slow ()
 
-elif kl == "#" :
+elif kl == "5" :
     sys.exit ()
