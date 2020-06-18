@@ -124,6 +124,7 @@ def anim (x) :
   
 os.system ("clear")
 anim (0.01)
+os.system ("clear")
 styel ()
 print ("")
 print ("\033[1;31m[\033[1;32m*\033[1;31m] \033[1;37m 1- encode text ")
@@ -137,21 +138,25 @@ kl = input (">>> ")
 if kl == "1" :
     os.system ("clear")
     anim (0.1)
+    os.system ("clear")
     styel ()
     encode1 ()
 elif kl == "2" :
     os.system ("clear")
     anim (0.1)
+    os.system ("clear")
     styel ()
     encode2 ()
 elif kl == "3" :
     os.system ("clear")
     anim (0.1)
+    os.system ("clear")
     styel ()
     encode3 ()
 elif kl == "4" :
     os.system ("clear")
     anim (0.1)
+    os.system ("clear")
     slow ()
 elif kl == "5" :
     anim (0.1)
