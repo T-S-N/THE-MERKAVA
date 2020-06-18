@@ -23,8 +23,8 @@ def encode1 () :
 def encode2 () :
     import compileall
 
-    print ("1- for encode file ")
-    print ("2- for encode dir ")
+    print (" \033[1;31m [ \033[1;32m * \033[1;31m ]  \033[1;37m 1- for encode file ")
+    print (" \033[1;31m [ \033[1;32m * \033[1;31m ] \033[1;37m 2- for encode dir ")
 
     e = input (">>> ")
 
@@ -63,8 +63,8 @@ def styel () :
     print (text)
 
 def encode3 () :
-    print ("1- for encode file ")
-    print ("2- for decode file ")
+    print (" \033[1;31m [ \033[1;32m * \033[1;31m ] \033[1;37m 1- for encode file ")
+    print (" \033[1;31m [ \033[1;32m * \033[1;31m ]  \033[1;37m 2- for decode file ")
     print ("")
     lll = input (">>> ")
     if lll == "1" :
@@ -123,11 +123,11 @@ strong and difficult to guess ...\n
 os.system ("clear")
 styel ()
 print ("")
-print ("[*]  1- encode text ")
-print ("[*]  2- encode file/dir ")
-print ("[*]  3- encode file with passeword && decode it ")
-print ('[*]  4- help ')
-print ("[*]  5- exit ")
+print (" \033[1;31m [ \033[1;32m * \033[1;31m ] \033[1;37m 1- encode text ")
+print (" \033[1;31m [ \033[1;32m * \033[1;31m ] \033[1;37m 2- encode file/dir ")
+print (" \033[1;31m [ \033[1;32m * \033[1;31m ] \033[1;37m 3- encode file with passeword && decode it ")
+print (' \033[1;31m [ \033[1;32m * \033[1;31m ] \033[1;37m 4- help ')
+print (" \033[1;31m [ \033[1;32m * \033[1;31m ] \033[1;37m 5- exit ")
 print ("")
 
 kl = input (">>> ")
@@ -146,6 +146,7 @@ elif kl == "3" :
 elif kl == "4" :
     os.system ("clear")
     slow ()
-
 elif kl == "5" :
     sys.exit ()
+
+#T-S-N
